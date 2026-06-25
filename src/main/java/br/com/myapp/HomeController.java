@@ -6,14 +6,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
 
-    @GetMapping("")
+    @GetMapping("/")
     public String home() {
         return """
         <html>
         <body style="font-family:Arial;text-align:center;margin-top:100px;">
             <h1>Minha Aplicação Web</h1>
-            <h2>Deploy 1</h2>
-            <p>Projeto Jenkins + Apache Tomcat</p>
+            <h2>Deploy 2</h2>
+            <p>Aplicação atualizada pela Integração Contínua</p>
         </body>
         </html>
         """;
