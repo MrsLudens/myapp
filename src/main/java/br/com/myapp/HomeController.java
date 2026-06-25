@@ -12,8 +12,8 @@ public class HomeController {
         <html>
         <body style="font-family:Arial;text-align:center;margin-top:100px;">
             <h1>Minha Aplicação Web</h1>
-            <h2>Deploy 2</h2>
-            <p>Aplicação atualizada pela Integração Contínua</p>
+            <h2>Deploy 3</h2>
+            <p>Terceira versão publicada automaticamente pelo Jenkins.</p>
         </body>
         </html>
         """;
